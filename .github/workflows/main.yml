@@ -39,7 +39,7 @@ jobs:
           TGCHATID: ${{ secrets.TGCHATID }}
           BOTTOKEN: ${{ secrets.BOTTOKEN }}
           ADDRESS: ${{ secrets.ADDRESS }}
-        run: |
+        run: 
           pip install lxml
           python ./AutoSign.py
 
